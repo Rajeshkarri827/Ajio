@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJIO</title>
+    <link rel="stylesheets" href="styles.css">
+    <style>
+        header{
+            font-size: 50px;
+            color: #2F4254;
+            text-shadow:10px 8px 3px gray;
+        }
+        .nav{
+            text-align: center;
+            font-size: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: #8a8a8a;
+        }  
+        input[type="text"] {
+            border-radius: 20px;
+            padding: 5px 10px; 
+            border: 1px solid black; 
+        }
+        .pre{ 
+            font-size: 15px;
+            color: #8a8a8a;
+            text-align: right;
+        }
+    </style>
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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">
+</head>
+<body> 
+    <fieldset>
+        <pre class="pre">Sign In / Join AJIO    Customer Care </pre>
+        <header>AJIO</header> 
+        <nav class="nav">
+                   
+       <pre><a href="https://www.ajio.com/shop/men" target="_self">MEN</a>   <a href="https://www.ajio.com/shop/women" target="_self">WOMEN</a>   <a href="https://www.ajio.com/shop/kids" target="_self">KIDS</a>    <a href="https://www.ajio.com/s/beauty-5269-65820" target="_self">BEAUTY</a>    <a href="https://www.ajio.com/c/8312" target="_self">HOME AND KITCHEN</a>      <label for="search"></label>         <input type="text" name=search id=search placeholder="Search AJIO"></pre>
+    </nav>
+    </fieldset>
+    <main>
+        <section>
+           <a href="https://www.ajio.com/s/50-to-90-percent-off-5399-78471" target="_self"><img src="./WhatsApp Image 2024-08-08 at 23.55.56_5feb1663.jpg" width="1525px" height="1525"></a>
+        </section>
+    </main>
+</body>
+</html>
